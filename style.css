@@ -43,13 +43,17 @@ table tr.even {
 }
 
 .credits {
-  color: #FFF;
+  color: black;
   bottom: 0;
   position: absolute;
-  width: 99%;
+  width: 100%;
   text-align: center;
   padding-bottom: 10px;
+  background: white;
+}
 
+.creditstext {
+  padding: 3px;
 }
 
 .indexhead {
