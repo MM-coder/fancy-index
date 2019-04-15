@@ -44,6 +44,10 @@ table tr.even {
 
 .credits {
   color: #FFF;
+  bottom: 0;
+  position: absolute;
+  width: 99%;
+  text-align: center;
 
 }
 
