@@ -134,7 +134,7 @@
     const input = document.createElement('input');
     input.type = 'search';
     input.id = 'search';
-    input.setAttribute('placeholder', '<i class="fas fa-search"></i> Search');
+    input.setAttribute('placeholder', 'Search');
     document.getElementById('page-header').appendChild(input);
 
     const sortColumns = Array.from(document.querySelectorAll('thead a'));
