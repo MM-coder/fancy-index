@@ -152,6 +152,10 @@ a:visited {
   }
 }
 
+.indexcolname {
+  color: #d65562;
+}
+
 @media (max-width: 400px) {
   h1 {
     font-size: 1.375em;
