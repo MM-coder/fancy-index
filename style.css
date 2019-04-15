@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Courier new";
   font-weight: 300;
   color: #FFF;
 }
@@ -44,7 +44,7 @@ table tr.even {
 
 .credits {
   color: #FFF;
-  
+
 }
 
 a {
@@ -57,7 +57,7 @@ a:hover {
 }
 
 a:visited {
-  color: #8e44ad;
+  color: inherit;
 }
 
 .img-wrap {
