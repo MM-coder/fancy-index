@@ -51,6 +51,11 @@ table tr.even {
 
 }
 
+.indexhead {
+  color: #d65562;
+}
+
+
 a {
   text-decoration: none;
   color: whitesmoke;
