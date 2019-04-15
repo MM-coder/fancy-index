@@ -10,7 +10,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 300;
-  color: #404040;
+  color: #FFF;
 }
 
 table {
@@ -28,7 +28,7 @@ table tr th,
 table tr td {
   padding: 0.5625rem 0.625rem;
   font-size: 0.875rem;
-  color: #222222;
+  color: #FFF;
   text-align: left;
   line-height: 1.125rem;
 }
