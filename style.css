@@ -48,6 +48,7 @@ table tr.even {
   position: absolute;
   width: 99%;
   text-align: center;
+  padding-bottom: 10px;
 
 }
 
