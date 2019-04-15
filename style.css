@@ -42,6 +42,11 @@ table tr.even {
   background: #081e35;
 }
 
+.credits {
+  color: #FFF;
+  
+}
+
 a {
   text-decoration: none;
   color: whitesmoke;
