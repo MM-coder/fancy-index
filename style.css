@@ -105,6 +105,9 @@ a:visited {
   border: 1px solid whitesmoke;
   border-radius: 0.25rem;
   margin-left: 1rem;
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
   -webkit-appearance: textfield;
 }
 
