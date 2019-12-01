@@ -1,34 +1,26 @@
-
-/* #081e35 - DARK */
-/* #081421 - Light */
-
-html {
-  background-color: #081421
-}
-
 body {
   margin: 0;
-  font-family: "Courier new";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 300;
-  color: #a6a61f;
+  color: #404040;
 }
 
 table {
   width: 100%;
-  background: #081e35;
+  background: white;
   border: 0;
   table-layout: auto;
 }
 
 table thead {
-  background: #081e35;
+  background: #efefef;
 }
 
 table tr th,
 table tr td {
   padding: 0.5625rem 0.625rem;
   font-size: 0.875rem;
-  color: #FFF;
+  color: #222222;
   text-align: left;
   line-height: 1.125rem;
 }
@@ -39,31 +31,12 @@ table thead tr th {
 }
 
 table tr.even {
-  background: #081e35;
+  background: whitesmoke;
 }
-
-.credits {
-  color: black;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 10px;
-  background: white;
-}
-
-.creditstext {
-  padding: 3px;
-}
-
-.indexhead {
-  color: #d65562;
-}
-
 
 a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #3498db;
 }
 
 a:hover {
@@ -71,7 +44,7 @@ a:hover {
 }
 
 a:visited {
-  color: inherit;
+  color: #8e44ad;
 }
 
 .img-wrap {
@@ -107,7 +80,6 @@ a:visited {
 }
 
 #search {
-  float: right;
   display: block;
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
@@ -116,12 +88,9 @@ a:visited {
   background-color: #fff;
   background-image: none;
   background-clip: padding-box;
-  border: 1px solid whitesmoke;
+  border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
   margin-left: 1rem;
-  position: absolute;
-  right: 0;
-  margin-right: 30px;
   -webkit-appearance: textfield;
 }
 
