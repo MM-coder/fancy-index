@@ -128,7 +128,7 @@ a:visited {
 }
 
 .credits {
-  color: white;
+  color: inherit;
   bottom: 0;
   position: absolute;
   width: 100%;
