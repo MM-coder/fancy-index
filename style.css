@@ -126,3 +126,74 @@ a:visited {
     font-size: 1.375em;
   }
 }
+
+.credits {
+  color: white;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.creditstext {
+  padding: 3px;
+}
+
+
+@-moz-keyframes heartThrob {
+  10% {
+   transform:scale(1.15)
+  }
+  20% {
+   transform:scale(1)
+  }
+  40% {
+   transform:scale(1.15)
+  }
+  60% {
+   transform:scale(1)
+  }
+ }
+ @-webkit-keyframes heartThrob {
+  10% {
+   transform:scale(1.15)
+  }
+  20% {
+   transform:scale(1)
+  }
+  40% {
+   transform:scale(1.15)
+  }
+  60% {
+   transform:scale(1)
+  }
+ }
+ @-o-keyframes heartThrob {
+  10% {
+   transform:scale(1.15)
+  }
+  20% {
+   transform:scale(1)
+  }
+  40% {
+   transform:scale(1.15)
+  }
+  60% {
+   transform:scale(1)
+  }
+ }
+ @keyframes heartThrob {
+  10% {
+   transform:scale(1.15)
+  }
+  20% {
+   transform:scale(1)
+  }
+  40% {
+   transform:scale(1.15)
+  }
+  60% {
+   transform:scale(1)
+  }
+ }
