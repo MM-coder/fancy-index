@@ -1,3 +1,5 @@
+![Screenshot](https://i.maurom.dev/5yndz.png)
+
 # Fancy Index Fork, by Mauro M.
 
 Currently being used on my image server [here](https://i.maurom.dev/), provides a good looking alternative to the default apache `index_of` page
