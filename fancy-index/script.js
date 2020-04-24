@@ -57,13 +57,16 @@
       titleText = window.location.host;
     }
 
-    titleText = `Files @ ${titleText}`;
+    textString = `Files on `;
 
     const container = document.createElement('div');
     container.id = 'page-header';
-    const h1 = document.createElement('h1');
-    h1.appendChild(document.createTextNode(titleText));
-    container.appendChild(h1);
+    const h2 = document.createElement('h2');
+    const code = document.createElement('code');
+    h2.appendChild(document.createTextNode(textString));
+    code.appendChild(document.createTextNode(titleText))
+    h2.appendChild(code)
+    container.appendChild(h2);
 
     document.body.insertBefore(container, document.body.firstChild);
     document.title = titleText;
@@ -131,11 +134,15 @@
   }
 
   function addSearch() {
+    const div = document.createElement('div');
+    div.id = 'search-icon'
     const input = document.createElement('input');
     input.type = 'search';
     input.id = 'search';
-    input.setAttribute('placeholder', 'Search');
-    document.getElementById('page-header').appendChild(input);
+    input.setAttribute('style', 'float: right');
+    input.setAttribute('placeholder', 'Filter');
+    div.appendChild(input)
+    document.getElementById('page-header').appendChild(div);
 
     const sortColumns = Array.from(document.querySelectorAll('thead a'));
     const nameColumns = Array.from(document.querySelectorAll('tbody .indexcolname'));
