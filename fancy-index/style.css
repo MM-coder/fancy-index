@@ -153,10 +153,11 @@ a:visited {
 .credits {
   color: inherit;
   bottom: 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
   text-align: center;
   padding-bottom: 10px;
+  background-color: inherit;
 }
 
 .creditstext {
